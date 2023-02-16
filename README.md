@@ -1,9 +1,11 @@
-# movie-recommendation-system-mlproject
+## movie-recommendation-system-mlproject
+
+<img width="802" alt="image" src="https://user-images.githubusercontent.com/64134540/219350456-7dc7eba2-6694-4d65-aaff-8609122a5d2d.png">
 
 @author: Nikhil Jagnade
 @date: 15 Feb, 2023
 
-Recommender System
+### Recommender System
 A recommender system, or a recommendation system (sometimes replacing 'system' with a synonym such as platform or engine), is a subclass of information filtering system that provide suggestions for items that are most pertinent to a particular user.
 Typically, the suggestions refer to various decision-making processes, such as what product to purchase, what music to listen to, or what online news to read.
 
@@ -42,3 +44,43 @@ Feature Combination: Features derived from different knowledge sources are combi
 Feature Augmentation: Computing a feature or set of features, which is then part of the input to the next technique.[54]
 
 Cascade: Recommenders are given strict priority, with the lower priority ones breaking ties in the scoring of the higher ones.
+
+Mixed: Recommendations from different recommenders are presented together to give the recommendation.
+Feature Combination: Features derived from different knowledge sources are combined together and given to a single recommendation algorithm.[54]
+
+Feature Augmentation: Computing a feature or set of features, which is then part of the input to the next technique.[54]
+
+Cascade: Recommenders are given strict priority, with the lower priority ones breaking ties in the scoring of the higher ones.
+
+Meta-level: One recommendation technique is applied and produces some sort of model, which is then the input used by the next technique.[55]
+
+Knowledge based systems
+
+Project Name: Movie recommender system
+Recommender system type: content based recommender system
+
+Project FLow
+1. Data scrapping
+2. Preprocessing
+3. Model building
+4. Website development
+5. Deployment
+
+1. Data Scrapping
+
+Dataset link - https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
+
+2. Data Preprocessing
+
+3. Model building
+  word vectorization
+  similarity matrix
+  
+4. App developement
+  Streamlit
+  
+5. Deployment
+  GPC
+  Azure
+  AWS
+  Heroku
